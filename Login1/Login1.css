@@ -1,0 +1,173 @@
+@font-face{
+    font-family: King-Basil-Lite;
+    src: url(fonts/King-Basil-Lite.otf);
+}
+@font-face{
+    font-family: Blazed;
+    src: url(fonts/Blazed.otf);
+}
+@font-face{
+    font-family: Snowy-Plain;
+    src: url(fonts/Snow-Plain.otf);
+}
+@font-face{
+    font-family: Graphite-Std;
+    src: url(fonts/Graphite-Std.otf);
+}
+@font-face{
+    font-family: Akronim-Regular;
+    src: url(fonts/Akronim-Regular.ttf);
+}
+body{
+    background: url(images/KDE.jpg);
+    background-size: cover;
+}
+.content{
+    background: linear-gradient(45deg, rgb(35, 8, 77), rgb(98, 48, 176));
+    transform: translate(475px, 75px);
+    height: 470px;
+    width: 400px;
+    border: 1px black;
+    border-radius: 10%;
+    box-shadow: -5px -5px 5px rgb(102, 6, 192),
+                5px 5px 5px rgb(102, 6, 192),
+                -5px -5px 5px rgb(102, 6, 192),
+                5px 5px 5px rgb(102, 6, 192);
+}
+h2{
+    color: rgb(68, 0, 171);
+    text-shadow: -5px -2px rgb(34, 0, 56);
+    text-align: center;
+    font-size: 70px;
+    padding-top: 30px;
+    text-transform: uppercase;
+    font-family: Graphite-Std;
+    margin-bottom: 25px;
+}
+.username{
+    margin-left: 55px;
+    border: 1px 1px solid rgb(36, 2, 68);
+    outline: none;
+    margin-top: 0px;
+    height: 35px;
+    width: 285px;
+    border-radius: 15px;
+    font-family: Graphite-Std;
+    font-size: 25px;
+    padding-top: 5px;
+}
+.password{
+    margin-left: 55px;
+    border: 1px 1px solid rgb(36, 2, 68);
+    outline: none;
+    margin-top: 15px;
+    height: 35px;
+    width: 285px;
+    border-radius: 15px;
+    font-family: Graphite-Std;
+    font-size: 25px;
+    padding-top: 5px;
+}
+.button{
+    margin-left: 130px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    text-decoration: none;
+    font-size: 35px;
+    color: rgb(98, 48, 176);
+    background: linear-gradient(45deg, rgb(49, 2, 94), rgb(67, 11, 121), rgb(102, 6, 192));
+    border: 1px 1px solid black;
+    border-radius: 15px;
+    width: 115px;
+    height: 50px;
+    padding-left: 30px;
+    padding-top: 8px;
+    padding-bottom: 2px;
+    padding-right: 0px;
+    box-shadow: -3px -2px 0px rgb(34, 0, 56);
+    transition: 0.5s;
+    font-size: 30px;
+}
+.forget{
+    margin-left: 50px;
+}
+.forget p{
+    color: gray;
+    font-size: 24px;
+    font-family: Graphite-Std;
+}
+.forget a{
+    text-decoration: none;
+    color: rgb(145, 74, 255);
+    font-size: 20px;
+    font-family: Graphite-Std;
+}
+.button a:visited{
+    text-decoration: none;
+    transition: 0.5s;
+    color: rgb(18, 11, 53);
+    font-family: Graphite-Std;
+}
+.button a:link{
+    text-decoration: none;
+    transition: 0.5s;
+    color: rgb(18, 11, 53);
+    font-family: Graphite-Std;
+}
+.button a:active{
+    text-decoration: none;
+    transition: 0.5s;
+    color: rgb(18, 11, 53);
+    font-family: Graphite-Std;
+}
+.button a:hover{
+    text-decoration: none;
+    transition: 0.5s;
+    color: rgb(0, 60, 255);
+    font-family: Graphite-Std;
+}
+.button:active{
+    transition: 0.5s;
+    box-shadow: 0px 0px 0px rgb(34, 0, 56);
+    transform: translate(-3px, -2px);
+}
+.button:hover{
+    background: linear-gradient(230deg, rgb(49, 2, 94), rgb(67, 11, 121), rgb(102, 6, 192));
+    transition: 0s;
+    cursor: pointer;
+}
+.forget a:hover{
+    color: rgb(94, 37, 180);
+    transition: 0.5s;
+}
+.button a{
+    text-align: center;
+    font-size: 40px;
+}
+.registration p{
+    font-family: Graphite-Std;
+    color: gray;
+    font-size: 20px;
+}
+.registration a{
+    font-family: Graphite-Std;
+    color: rgb(145, 74, 255);
+    font-size: 20px;
+    text-decoration: none;
+}
+.registration a:link{
+    color: rgb(145, 74, 255);
+}
+.registration a:active{
+    color: rgb(145, 74, 255);
+}
+.registration a:hover{
+    color: rgb(94, 37, 180);
+    transition: 0.5s;
+}
+.registration a:visited{
+    color: rgb(145, 74, 255);
+}
+.registration{
+    padding-left: 15px;
+}
