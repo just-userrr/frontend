@@ -24,7 +24,7 @@ body{
 }
 .content{
     background: linear-gradient(45deg, rgb(35, 8, 77), rgb(98, 48, 176));
-    transform: translate(475px, 75px);
+    transform: translate(440px, 30px);
     height: 470px;
     width: 400px;
     border: 1px black;
@@ -45,6 +45,7 @@ h2{
     margin-bottom: 25px;
 }
 .username{
+    padding-left: 10px;
     margin-left: 55px;
     border: 1px 1px solid rgb(36, 2, 68);
     outline: none;
@@ -53,10 +54,11 @@ h2{
     width: 285px;
     border-radius: 15px;
     font-family: Graphite-Std;
-    font-size: 25px;
+    font-size: 23px;
     padding-top: 5px;
 }
 .password{
+    padding-left: 10px;
     margin-left: 55px;
     border: 1px 1px solid rgb(36, 2, 68);
     outline: none;
@@ -65,7 +67,7 @@ h2{
     width: 285px;
     border-radius: 15px;
     font-family: Graphite-Std;
-    font-size: 25px;
+    font-size: 23px;
     padding-top: 5px;
 }
 .button{
